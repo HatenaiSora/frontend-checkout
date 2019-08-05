@@ -40,11 +40,12 @@ class Checkout extends Component {
   };
   render() {
     return (
-      <section>
+      <section className='checkout'>
         <h3>DELIVERY ADDRESS</h3>
         <form>
           <label>
             FIRST NAME
+            <br />
             <input
               type='text'
               name='name'
@@ -54,6 +55,7 @@ class Checkout extends Component {
           </label>
           <label>
             LAST NAME
+            <br />
             <input
               type='text'
               name='surname'
@@ -63,6 +65,7 @@ class Checkout extends Component {
           </label>
           <label>
             E-MAIL
+            <br />
             <input
               type='email'
               name='email'
@@ -72,6 +75,7 @@ class Checkout extends Component {
           </label>
           <label>
             PHONE
+            <br />
             <input
               type='number'
               name='phone'
@@ -81,6 +85,7 @@ class Checkout extends Component {
           </label>
           <label>
             ADDRESS
+            <br />
             <input
               type='text'
               name='address'
@@ -90,6 +95,7 @@ class Checkout extends Component {
           </label>
           <label>
             ADDRESS CONT...
+            <br />
             <input
               type='text'
               name='addressCont'
@@ -99,6 +105,7 @@ class Checkout extends Component {
           </label>
           <label>
             ZIP CODE
+            <br />
             <input
               type='text'
               name='zipCode'
@@ -108,6 +115,7 @@ class Checkout extends Component {
           </label>
           <label>
             CITY
+            <br />
             <input
               type='text'
               name='city'
@@ -117,6 +125,7 @@ class Checkout extends Component {
           </label>
           <label>
             STATE
+            <br />
             <input
               type='text'
               name='state'
@@ -126,6 +135,7 @@ class Checkout extends Component {
           </label>
           <label>
             COUNTRY
+            <br />
             <select>
               <option>UNITED STATES</option>
               <option>POLAND</option>
@@ -136,6 +146,7 @@ class Checkout extends Component {
         <form>
           <label>
             CARD NUMBER
+            <br />
             <input
               type='number'
               name='cardNumber'
@@ -145,6 +156,7 @@ class Checkout extends Component {
           </label>
           <label>
             CARD HOLDER
+            <br />
             <input
               type='text'
               name='cardHolder'
@@ -154,6 +166,7 @@ class Checkout extends Component {
           </label>
           <label>
             CVC
+            <br />
             <input
               type='number'
               name='cvc'
