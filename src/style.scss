@@ -15,17 +15,70 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
     .header-cart {
       margin-left: auto;
       span {
         color: grey;
+        margin-left: 5px;
       }
     }
     h1 {
       margin-left: auto;
       font-family: 'Darker Grotesque', sans-serif;
       font-weight: 700;
+      font-size: 25px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+h3 {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.order {
+  margin-left: 30px;
+  flex-direction: column;
+  width: 75%;
+  &-product {
+    display: flex;
+    justify-content: space-between;
+    img {
+      margin-bottom: 15px;
+    }
+  }
+  .product-info {
+    flex-basis: 70%;
+    &_qty {
+      display: flex;
+      justify-content: space-between;
+    }
+    &_price {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  hr {
+    margin-bottom: 30px;
+  }
+  &-sum {
+    margin-bottom: 30px;
+    div {
+      display: flex;
+      justify-content: space-between;
+      &:last-child {
+        span:first-child {
+          font-weight: 500;
+        }
+      }
     }
   }
 }
