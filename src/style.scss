@@ -91,21 +91,55 @@ h3 {
       font-size: 10px;
       font-weight: 500;
       margin-bottom: 5px;
-    }
-    input {
-      margin-top: 5px;
-      padding: 8px 5px;
-      border-radius: 2px;
-      box-shadow: none;
-      border: 1px solid rgb(201, 198, 198);
-      width: 100%;
-      &:focus {
-        outline-color: #683a8a;
+      span {
+        font-size: 15px;
+        color: rgb(228, 36, 132);
+        margin-left: 3px;
+      }
+      input {
+        margin-top: 5px;
+        padding: 8px 5px;
+        border-radius: 2px;
+        box-shadow: none;
+        border: 1px solid rgb(201, 198, 198);
+        width: 100%;
+        &:focus {
+          outline-color: #683a8a;
+        }
       }
     }
+
     select {
       margin-top: 5px;
       margin-bottom: 15px;
+      padding: 8px 5px;
+      width: 100%;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: transparent;
+      background-image: url('./down-arrow.png');
+      background-repeat: no-repeat, repeat;
+      background-position: right 0 top 0, 0 0;
+      background-size: 33px 33px;
+      &:focus {
+        outline-color: #683a8a;
+      }
+      option {
+        outline-color: #683a8a;
+        border: 1px solid #683a8a;
+      }
+    }
+
+    button {
+      width: 100%;
+      background-color: #683a8a;
+      color: white;
+      outline: none;
+      padding: 12px 10px;
+      border: none;
+      font-weight: 600;
+      border-radius: 2px;
+      margin-top: 10px;
     }
   }
 }
