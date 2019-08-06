@@ -235,9 +235,6 @@ class Checkout extends Component {
                 <option value='Botswana'>Botswana</option>
                 <option value='Bouvet Island'>Bouvet Island</option>
                 <option value='Brazil'>Brazil</option>
-                <option value='British Indian Ocean Territory'>
-                  British Indian Ocean Territory
-                </option>
                 <option value='Brunei Darussalam'>Brunei Darussalam</option>
                 <option value='Bulgaria'>Bulgaria</option>
                 <option value='Burkina Faso'>Burkina Faso</option>
@@ -258,9 +255,6 @@ class Checkout extends Component {
                 <option value='Colombia'>Colombia</option>
                 <option value='Comoros'>Comoros</option>
                 <option value='Congo'>Congo</option>
-                <option value='Congo'>
-                  Congo, the Democratic Republic of the
-                </option>
                 <option value='Cook Islands'>Cook Islands</option>
                 <option value='Costa Rica'>Costa Rica</option>
                 <option value="Cota D'Ivoire">Cote d'Ivoire</option>
@@ -280,9 +274,6 @@ class Checkout extends Component {
                 <option value='Eritrea'>Eritrea</option>
                 <option value='Estonia'>Estonia</option>
                 <option value='Ethiopia'>Ethiopia</option>
-                <option value='Falkland Islands'>
-                  Falkland Islands (Malvinas)
-                </option>
                 <option value='Faroe Islands'>Faroe Islands</option>
                 <option value='Fiji'>Fiji</option>
                 <option value='Finland'>Finland</option>
@@ -292,9 +283,6 @@ class Checkout extends Component {
                 </option>
                 <option value='French Guiana'>French Guiana</option>
                 <option value='French Polynesia'>French Polynesia</option>
-                <option value='French Southern Territories'>
-                  French Southern Territories
-                </option>
                 <option value='Gabon'>Gabon</option>
                 <option value='Gambia'>Gambia</option>
                 <option value='Georgia'>Georgia</option>
@@ -311,17 +299,12 @@ class Checkout extends Component {
                 <option value='Guinea-Bissau'>Guinea-Bissau</option>
                 <option value='Guyana'>Guyana</option>
                 <option value='Haiti'>Haiti</option>
-                <option value='Heard and McDonald Islands'>
-                  Heard and Mc Donald Islands
-                </option>
-                <option value='Holy See'>Holy See (Vatican City State)</option>
                 <option value='Honduras'>Honduras</option>
                 <option value='Hong Kong'>Hong Kong</option>
                 <option value='Hungary'>Hungary</option>
                 <option value='Iceland'>Iceland</option>
                 <option value='India'>India</option>
                 <option value='Indonesia'>Indonesia</option>
-                <option value='Iran'>Iran (Islamic Republic of)</option>
                 <option value='Iraq'>Iraq</option>
                 <option value='Ireland'>Ireland</option>
                 <option value='Israel'>Israel</option>
@@ -332,27 +315,19 @@ class Checkout extends Component {
                 <option value='Kazakhstan'>Kazakhstan</option>
                 <option value='Kenya'>Kenya</option>
                 <option value='Kiribati'>Kiribati</option>
-                <option value="Democratic People's Republic of Korea">
-                  Korea, Democratic People's Republic of
-                </option>
                 <option value='Korea'>Korea, Republic of</option>
                 <option value='Kuwait'>Kuwait</option>
                 <option value='Kyrgyzstan'>Kyrgyzstan</option>
-                <option value='Lao'>Lao People's Democratic Republic</option>
+                <option value='Lao'>Lao</option>
                 <option value='Latvia'>Latvia</option>
                 <option value='Lebanon'>Lebanon</option>
                 <option value='Lesotho'>Lesotho</option>
                 <option value='Liberia'>Liberia</option>
-                <option value='Libyan Arab Jamahiriya'>
-                  Libyan Arab Jamahiriya
-                </option>
                 <option value='Liechtenstein'>Liechtenstein</option>
                 <option value='Lithuania'>Lithuania</option>
                 <option value='Luxembourg'>Luxembourg</option>
                 <option value='Macau'>Macau</option>
-                <option value='Macedonia'>
-                  Macedonia, The Former Yugoslav Republic of
-                </option>
+                <option value='Macedonia'>Macedonia</option>
                 <option value='Madagascar'>Madagascar</option>
                 <option value='Malawi'>Malawi</option>
                 <option value='Malaysia'>Malaysia</option>
@@ -365,10 +340,8 @@ class Checkout extends Component {
                 <option value='Mauritius'>Mauritius</option>
                 <option value='Mayotte'>Mayotte</option>
                 <option value='Mexico'>Mexico</option>
-                <option value='Micronesia'>
-                  Micronesia, Federated States of
-                </option>
-                <option value='Moldova'>Moldova, Republic of</option>
+                <option value='Micronesia'>Micronesia</option>
+                <option value='Moldova'>Moldova</option>
                 <option value='Monaco'>Monaco</option>
                 <option value='Mongolia'>Mongolia</option>
                 <option value='Montserrat'>Montserrat</option>
@@ -389,9 +362,6 @@ class Checkout extends Component {
                 <option value='Nigeria'>Nigeria</option>
                 <option value='Niue'>Niue</option>
                 <option value='Norfolk Island'>Norfolk Island</option>
-                <option value='Northern Mariana Islands'>
-                  Northern Mariana Islands
-                </option>
                 <option value='Norway'>Norway</option>
                 <option value='Oman'>Oman</option>
                 <option value='Pakistan'>Pakistan</option>
@@ -410,58 +380,39 @@ class Checkout extends Component {
                 <option value='Romania'>Romania</option>
                 <option value='Russia'>Russian Federation</option>
                 <option value='Rwanda'>Rwanda</option>
-                <option value='Saint Kitts and Nevis'>
-                  Saint Kitts and Nevis
-                </option>
                 <option value='Saint LUCIA'>Saint LUCIA</option>
-                <option value='Saint Vincent'>
-                  Saint Vincent and the Grenadines
-                </option>
+                <option value='Saint Vincent'>Saint Vincent</option>
                 <option value='Samoa'>Samoa</option>
                 <option value='San Marino'>San Marino</option>
-                <option value='Sao Tome and Principe'>
-                  Sao Tome and Principe
-                </option>
                 <option value='Saudi Arabia'>Saudi Arabia</option>
                 <option value='Senegal'>Senegal</option>
                 <option value='Seychelles'>Seychelles</option>
                 <option value='Sierra'>Sierra Leone</option>
                 <option value='Singapore'>Singapore</option>
-                <option value='Slovakia'>Slovakia (Slovak Republic)</option>
+                <option value='Slovakia'>Slovakia</option>
                 <option value='Slovenia'>Slovenia</option>
                 <option value='Solomon Islands'>Solomon Islands</option>
                 <option value='Somalia'>Somalia</option>
                 <option value='South Africa'>South Africa</option>
-                <option value='South Georgia'>
-                  South Georgia and the South Sandwich Islands
-                </option>
                 <option value='Span'>Spain</option>
                 <option value='SriLanka'>Sri Lanka</option>
                 <option value='St. Helena'>St. Helena</option>
-                <option value='St. Pierre and Miguelon'>
-                  St. Pierre and Miquelon
-                </option>
                 <option value='Sudan'>Sudan</option>
                 <option value='Suriname'>Suriname</option>
-                <option value='Svalbard'>Svalbard and Jan Mayen Islands</option>
                 <option value='Swaziland'>Swaziland</option>
                 <option value='Sweden'>Sweden</option>
                 <option value='Switzerland'>Switzerland</option>
                 <option value='Syria'>Syrian Arab Republic</option>
-                <option value='Taiwan'>Taiwan, Province of China</option>
+                <option value='Taiwan'>Taiwan</option>
                 <option value='Tajikistan'>Tajikistan</option>
-                <option value='Tanzania'>Tanzania, United Republic of</option>
+                <option value='Tanzania'>Tanzania</option>
                 <option value='Thailand'>Thailand</option>
                 <option value='Togo'>Togo</option>
                 <option value='Tokelau'>Tokelau</option>
                 <option value='Tonga'>Tonga</option>
-                <option value='Trinidad and Tobago'>Trinidad and Tobago</option>
                 <option value='Tunisia'>Tunisia</option>
                 <option value='Turkey'>Turkey</option>
                 <option value='Turkmenistan'>Turkmenistan</option>
-                <option value='Turks and Caicos'>
-                  Turks and Caicos Islands
-                </option>
                 <option value='Tuvalu'>Tuvalu</option>
                 <option value='Uganda'>Uganda</option>
                 <option value='Ukraine'>Ukraine</option>
@@ -470,9 +421,6 @@ class Checkout extends Component {
                 </option>
                 <option value='United Kingdom'>United Kingdom</option>
                 <option value='United States'>United States</option>
-                <option value='United States Minor Outlying Islands'>
-                  United States Minor Outlying Islands
-                </option>
                 <option value='Uruguay'>Uruguay</option>
                 <option value='Uzbekistan'>Uzbekistan</option>
                 <option value='Vanuatu'>Vanuatu</option>
@@ -541,8 +489,8 @@ class Checkout extends Component {
 const Order = () => {
   return (
     <>
-      <h3>ORDER</h3>
       <div className='order'>
+        <h3>ORDER</h3>
         <div className='order-product'>
           <div className='product-info'>
             <h4>ACME PRODUCT</h4>
@@ -587,8 +535,10 @@ class App extends Component {
       <>
         <Header />
         <h2>CHECKOUT</h2>
-        <Order />
-        <Checkout />
+        <main>
+          <Order />
+          <Checkout />
+        </main>
       </>
     );
   }

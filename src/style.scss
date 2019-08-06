@@ -9,7 +9,15 @@ body {
 
 header {
   width: 100vw;
+
   .header-center {
+    @media screen and (min-width: 700px) {
+      width: 70%;
+    }
+    @media screen and (min-width: 1024px) {
+      width: 65%;
+    }
+    max-width: 1400px;
     width: 50%;
     margin: 0 auto;
     display: flex;
@@ -29,6 +37,9 @@ header {
       font-size: 25px;
       margin-top: 10px;
       margin-bottom: 10px;
+      @media screen and (min-width: 700px) {
+        font-size: 30px;
+      }
     }
   }
 }
@@ -38,13 +49,42 @@ h2 {
   font-size: 15px;
   margin-top: 10px;
   margin-bottom: 20px;
+  @media screen and (min-width: 700px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
 }
 h3 {
   text-align: center;
   font-size: 15px;
   margin-bottom: 20px;
+  @media screen and (min-width: 700px) {
+    font-size: 20px;
+  }
 }
+main {
+  max-width: 1400px;
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+
 .order {
+  max-width: 500px;
+  @media screen and (min-width: 700px) {
+    width: 70%;
+  }
+  @media screen and (min-width: 1024px) {
+    flex-basis: 40%;
+    margin: 0;
+  }
   flex-direction: column;
   width: 300px;
   margin: 0 auto;
@@ -55,6 +95,18 @@ h3 {
       margin-bottom: 15px;
     }
   }
+  h3 {
+    @media screen and (min-width: 1024px) {
+      text-align: left;
+      margin-bottom: 30px;
+    }
+  }
+  span {
+    @media screen and (min-width: 700px) {
+      font-size: 17px;
+    }
+  }
+
   .product-info {
     flex-basis: 70%;
     &_qty {
@@ -83,7 +135,24 @@ h3 {
   }
 }
 .checkout {
+  max-width: 700px;
+  @media screen and (min-width: 1024px) {
+    flex-basis: 60%;
+  }
+  h3 {
+    @media screen and (min-width: 1024px) {
+      text-align: left;
+      margin-bottom: 30px;
+    }
+  }
   form {
+    @media screen and (min-width: 700px) {
+      max-width: 700px;
+      width: 70%;
+    }
+    @media screen and (min-width: 1024px) {
+      width: 100%;
+    }
     width: 300px;
     margin: 0 auto;
     label {
@@ -91,10 +160,18 @@ h3 {
       font-size: 10px;
       font-weight: 500;
       margin-bottom: 5px;
+      letter-spacing: 2px;
+      @media screen and (min-width: 700px) {
+        font-size: 15px;
+      }
       span {
         font-size: 15px;
         color: rgb(228, 36, 132);
         margin-left: 3px;
+        @media screen and (min-width: 1024px) {
+          font-size: 20px;
+          margin-left: 0;
+        }
       }
       input {
         margin-top: 5px;
@@ -103,6 +180,9 @@ h3 {
         box-shadow: none;
         border: 1px solid rgb(201, 198, 198);
         width: 100%;
+        @media screen and (min-width: 1024px) {
+          width: 70%;
+        }
         &:focus {
           outline-color: #683a8a;
         }
@@ -121,12 +201,21 @@ h3 {
       background-repeat: no-repeat, repeat;
       background-position: right 0 top 0, 0 0;
       background-size: 33px 33px;
+      @media screen and (min-width: 1024px) {
+        padding: 8px 10px;
+      }
       &:focus {
         outline-color: #683a8a;
       }
       option {
         outline-color: #683a8a;
         border: 1px solid #683a8a;
+        @media screen and (min-width: 1024px) {
+          width: 70%;
+        }
+      }
+      @media screen and (min-width: 1024px) {
+        width: 70%;
       }
     }
 
@@ -141,6 +230,9 @@ h3 {
       border-radius: 2px;
       margin-top: 10px;
       margin-bottom: 20px;
+      @media screen and (min-width: 1024px) {
+        width: 70%;
+      }
     }
   }
   .info {
@@ -148,5 +240,8 @@ h3 {
     color: red;
     display: block;
     text-align: center;
+    @media screen and (min-width: 1024px) {
+      text-align: left;
+    }
   }
 }
