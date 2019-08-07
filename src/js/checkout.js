@@ -16,7 +16,7 @@ class Checkout extends Component {
     cardNumber: '',
     cardHolder: '',
     cvc: '',
-    arrow: './down-arrow.png',
+    arrow: require('../down-arrow.png'),
     info: false
   };
   handleChange = e => {
@@ -24,18 +24,21 @@ class Checkout extends Component {
       [e.target.name]: e.target.value
     });
   };
-  // handleSelect = e => {
-  //   console.log(e.target.style.backgroundImage);
-  //   if (this.state.arrow === './down-arrow.png') {
-  //     this.setState({
-  //       arrow: './up-arrow.png'
-  //     });
-  //   } else {
-  //     this.setState({
-  //       arrow: './down-arrow.png'
-  //     });
-  //   }
-  // };
+
+  handleSelect = e => {
+    let downArrow = require('../down-arrow.png');
+    let upArrow = require('../up-arrow.png');
+
+    if (this.state.arrow === downArrow) {
+      this.setState({
+        arrow: upArrow
+      });
+    } else {
+      this.setState({
+        arrow: downArrow
+      });
+    }
+  };
 
   handleCheckout = e => {
     e.preventDefault();
@@ -182,7 +185,7 @@ class Checkout extends Component {
                 value={this.state.country}
                 onChange={this.handleChange}
                 onClick={this.handleSelect}
-                // style={{ backgroundImage: 'url(' + this.state.arrow + ')' }}
+                style={{ backgroundImage: 'url(' + this.state.arrow + ')' }}
                 name='country'
               >
                 <option value='Afghanistan'>Afghanistan</option>

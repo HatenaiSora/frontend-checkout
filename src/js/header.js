@@ -7,7 +7,7 @@ const Header = () => {
       <div className='header-center'>
         <h1>ACME STORE</h1>
         <div className='header-cart'>
-          <i className='fa fa-shopping-cart' />
+          <img src={require('../cart.png')} alt='cart icon' />
           <span>1</span>
         </div>
       </div>

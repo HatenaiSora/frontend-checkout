@@ -5,6 +5,7 @@
     flex-basis: 60%;
   }
   h3 {
+    letter-spacing: 1px;
     @media screen and (min-width: 1024px) {
       text-align: left;
       margin-bottom: 30px;
@@ -40,7 +41,7 @@
       }
       input {
         margin-top: 5px;
-        padding: 8px 5px;
+        padding: 12px 10px;
         border-radius: 2px;
         box-shadow: none;
         border: 1px solid rgb(201, 198, 198);
@@ -62,7 +63,6 @@
       -webkit-appearance: none;
       -moz-appearance: none;
       background: transparent;
-      background-image: url('./down-arrow.png');
       background-repeat: no-repeat, repeat;
       background-position: right 0 top 0, 0 0;
       background-size: 33px 33px;
